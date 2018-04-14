@@ -1,3 +1,5 @@
+(function () {
+
 var app = angular.module('store-directives', []);
 
 app.directive("descriptions", function() {
@@ -40,3 +42,5 @@ app.directive("productTabs", function() {
     controllerAs: "tab"
   };
 });
+
+})();
