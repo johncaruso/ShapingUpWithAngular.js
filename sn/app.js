@@ -9,9 +9,21 @@
         };
     });
 
-    app.controller('StoreController', function () {
-        this.products = gems;
-    });
+    app.controller('StoreController', ['$http', function ($http) {
+        // this.products = gems;
+        var c = this;
+        c.products = [];
+
+        $http.get('/api/now/table/x_9210_suwa_product', {
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'X-UserToken': window.g_ck
+            }
+        }).then(function(response) {
+            c.products = response.data.result;
+        });
+    }]);
 
     app.controller("ReviewController", function () {
         this.review = {};
