@@ -12,9 +12,9 @@
     <link href="ba09fd94db6113009fd2d421cf9619ec.cssdbx" rel="stylesheet" type="text/css"/>
     <script data-require="angular.js@1.2.x" src="https://code.angularjs.org/1.2.15/angular.js" data-semver="1.2.15"></script>
     <!--<script src="app.js"></script>-->
-    <script src="x_9210_suwa.app.jsdbx"></script>
+    <script src="x_9210_suwa.gemStore.jsdbx"></script>
     <!--<script src="products.js"></script>-->
-    <script src="x_9210_suwa.products.jsdbx"></script>
+    <script src="x_9210_suwa.storeDirectives.jsdbx"></script>
 </head>
 
 <body ng-controller="StoreController as store">
@@ -32,22 +32,6 @@
         <!-- $index Practice:  -->
         <h3>Gem #{{$index + 1}}: {{product.name | uppercase}}<em class="pull-right">{{product.price | currency}}</em>
         </h3>
-
-        <!-- Image Gallery  -->
-        <div ng-show="product.images.length" ng-controller="GalleryController as gallery">
-            <div class="img-wrap">
-                <img ng-src="{{product.images[gallery.imageIndex]}}" class="img-thumbnail center-block"/>
-            </div>
-            <ul class="img-thumbnails clearfix">
-                <li class="small-image pull-left thumbnail" ng-repeat="image in product.images"
-                    ng-click="gallery.currentImageChange($index)">
-                    <img ng-src="{{image}}"/>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Product Tabs  -->
-        <product-tabs></product-tabs>
 
     </div>
 </div>

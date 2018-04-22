@@ -1,6 +1,13 @@
 (function () {
 
-    var app = angular.module('store-directives', []);
+    var app = angular.module('storeDirectives', []);
+
+    app.directive("catalog", function () {
+        return {
+            restrict: "E",
+            templateUrl: "x_9210_suwa_catalog.do"
+        };
+    });
 
     app.directive("descriptions", function () {
         return {

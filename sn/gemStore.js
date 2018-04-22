@@ -1,7 +1,7 @@
 (function () {
-    var app = angular.module('gemStore', ['store-directives']);
+    var gemStore = angular.module('gemStore', ['storeDirectives']);
 
-    app.controller('GalleryController', function () {
+    gemStore.controller('GalleryController', function () {
         this.imageIndex = 0;
         this.currentImageChange = function (imageNumber) {
             console.log(imageNumber);
@@ -9,11 +9,11 @@
         };
     });
 
-    app.controller('StoreController', function () {
+    gemStore.controller('StoreController', function () {
         this.products = gems;
     });
 
-    app.controller("ReviewController", function () {
+    gemStore.controller("ReviewController", function () {
         this.review = {};
 
         this.addReview = function (product) {
