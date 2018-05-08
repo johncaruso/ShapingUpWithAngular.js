@@ -1,6 +1,6 @@
 function specs() {
     return {
-        restrict: "E",
-        templateUrl: "specs.html"
+        restrict: 'E',
+        templateUrl: 'specs.html'
     };
 }

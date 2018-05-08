@@ -1,7 +1,7 @@
 function productTabs() {
     return {
-        restrict: "E",
-        templateUrl: "product-tabs.html",
+        restrict: 'E',
+        templateUrl: 'product-tabs.html',
         controller: function () {
             this.tab = 1;
 
@@ -13,6 +13,6 @@ function productTabs() {
                 this.tab = activeTab;
             };
         },
-        controllerAs: "tab"
+        controllerAs: 'tab'
     };
 }
