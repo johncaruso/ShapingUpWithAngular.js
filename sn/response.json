@@ -1,0 +1,55 @@
+{
+  "result": [
+    {
+      "images": "x_9210_suwa_img_gem-01.gif, x_9210_suwa_img_gem-03.gif, x_9210_suwa_img_gem-04.gif",
+      "color": "#EEE",
+      "sys_mod_count": "2",
+      "description": "Origin of the Bloodstone is unknown, hence its low value. It has a very high shine and 12 sides, however.",
+      "sys_updated_on": "2018-05-07 19:10:07",
+      "sys_tags": "",
+      "shine": "9",
+      "sys_id": "259b76f6dba553009fd2d421cf961920",
+      "sys_updated_by": "johncaruso",
+      "price": "$22.90",
+      "sys_created_on": "2018-04-22 09:42:19",
+      "name": "Bloodstone",
+      "faces": "12",
+      "sys_created_by": "johncaruso",
+      "rarity": "6"
+    },
+    {
+      "images": "x_9210_suwa_img_gem-02.gif, x_9210_suwa_img_gem-05.gif, x_9210_suwa_img_gem-09.gif",
+      "color": "#CCC",
+      "sys_mod_count": "3",
+      "description": "Some gems have hidden qualities beyond their luster, beyond their shine... Azurite is one of those gems.",
+      "sys_updated_on": "2018-04-22 13:55:01",
+      "sys_tags": "",
+      "shine": "8",
+      "sys_id": "388bb23adba553009fd2d421cf96195e",
+      "sys_updated_by": "johncaruso",
+      "price": "$110.50",
+      "sys_created_on": "2018-04-22 09:42:00",
+      "name": "Azurite",
+      "faces": "14",
+      "sys_created_by": "johncaruso",
+      "rarity": "7"
+    },
+    {
+      "images": "x_9210_suwa_img_gem-06.gif, x_9210_suwa_img_gem-07.gif, x_9210_suwa_img_gem-10.gif",
+      "color": "#000",
+      "sys_mod_count": "2",
+      "description": "Zircon is our most coveted and sought after gem. You will pay much to be the proud owner of this gorgeous and high shine gem.",
+      "sys_updated_on": "2018-05-07 19:11:01",
+      "sys_tags": "",
+      "shine": "70",
+      "sys_id": "3fab3ef6dba553009fd2d421cf9619bd",
+      "sys_updated_by": "johncaruso",
+      "price": "$1,100.00",
+      "sys_created_on": "2018-04-22 09:42:40",
+      "name": "Zircon",
+      "faces": "6",
+      "sys_created_by": "johncaruso",
+      "rarity": "2"
+    }
+  ]
+}
